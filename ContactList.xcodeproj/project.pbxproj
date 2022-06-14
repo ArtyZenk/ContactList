@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		F304BCEE285895B300D0B6B0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304BCED285895B300D0B6B0 /* DataManager.swift */; };
 		F304BCF228589F8200D0B6B0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304BCF128589F8200D0B6B0 /* Person.swift */; };
+		F304BCF42858A40200D0B6B0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304BCF32858A40200D0B6B0 /* TabBarViewController.swift */; };
+		F304BCF62858A4A100D0B6B0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304BCF52858A4A100D0B6B0 /* ContactViewController.swift */; };
+		F304BCF82858A4AF00D0B6B0 /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304BCF72858A4AF00D0B6B0 /* SectionViewController.swift */; };
+		F304BCFB2858A86C00D0B6B0 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304BCFA2858A86C00D0B6B0 /* ContactDetailsViewController.swift */; };
 		F3C3B61928561FB300469FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3B61828561FB300469FEA /* AppDelegate.swift */; };
 		F3C3B61B28561FB300469FEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3B61A28561FB300469FEA /* SceneDelegate.swift */; };
-		F3C3B61D28561FB300469FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3B61C28561FB300469FEA /* ViewController.swift */; };
 		F3C3B62028561FB300469FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C3B61E28561FB300469FEA /* Main.storyboard */; };
 		F3C3B62228561FB300469FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C3B62128561FB300469FEA /* Assets.xcassets */; };
 		F3C3B62528561FB300469FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C3B62328561FB300469FEA /* LaunchScreen.storyboard */; };
@@ -20,10 +23,13 @@
 /* Begin PBXFileReference section */
 		F304BCED285895B300D0B6B0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		F304BCF128589F8200D0B6B0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F304BCF32858A40200D0B6B0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F304BCF52858A4A100D0B6B0 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		F304BCF72858A4AF00D0B6B0 /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
+		F304BCFA2858A86C00D0B6B0 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 		F3C3B61528561FB300469FEA /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C3B61828561FB300469FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3C3B61A28561FB300469FEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3C3B61C28561FB300469FEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3C3B61F28561FB300469FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3C3B62128561FB300469FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3C3B62428561FB300469FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +64,14 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		F304BCF92858A4BA00D0B6B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F304BCF128589F8200D0B6B0 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F3C3B60C28561FB200469FEA = {
 			isa = PBXGroup;
 			children = (
@@ -78,13 +92,16 @@
 			isa = PBXGroup;
 			children = (
 				F304BCF028589D6300D0B6B0 /* App */,
-				F3C3B61C28561FB300469FEA /* ViewController.swift */,
-				F304BCF128589F8200D0B6B0 /* Person.swift */,
+				F304BCF92858A4BA00D0B6B0 /* Model */,
 				F304BCEF2858981900D0B6B0 /* Services */,
 				F3C3B61E28561FB300469FEA /* Main.storyboard */,
 				F3C3B62128561FB300469FEA /* Assets.xcassets */,
 				F3C3B62328561FB300469FEA /* LaunchScreen.storyboard */,
 				F3C3B62628561FB300469FEA /* Info.plist */,
+				F304BCF32858A40200D0B6B0 /* TabBarViewController.swift */,
+				F304BCF52858A4A100D0B6B0 /* ContactViewController.swift */,
+				F304BCF72858A4AF00D0B6B0 /* SectionViewController.swift */,
+				F304BCFA2858A86C00D0B6B0 /* ContactDetailsViewController.swift */,
 			);
 			path = ContactList;
 			sourceTree = "<group>";
@@ -161,9 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F304BCF228589F8200D0B6B0 /* Person.swift in Sources */,
-				F3C3B61D28561FB300469FEA /* ViewController.swift in Sources */,
+				F304BCF62858A4A100D0B6B0 /* ContactViewController.swift in Sources */,
+				F304BCF82858A4AF00D0B6B0 /* SectionViewController.swift in Sources */,
 				F304BCEE285895B300D0B6B0 /* DataManager.swift in Sources */,
 				F3C3B61928561FB300469FEA /* AppDelegate.swift in Sources */,
+				F304BCFB2858A86C00D0B6B0 /* ContactDetailsViewController.swift in Sources */,
+				F304BCF42858A40200D0B6B0 /* TabBarViewController.swift in Sources */,
 				F3C3B61B28561FB300469FEA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

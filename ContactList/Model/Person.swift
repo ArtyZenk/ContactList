@@ -8,7 +8,7 @@
 struct Person {
     let name: String
     let surname: String
-    let emails: String
+    let email: String
     let phoneNumber: String
     
     var fullName: String {
@@ -33,7 +33,7 @@ extension Person {
             let person = Person(
                 name: names[index],
                 surname: surnames[index],
-                emails: emails[index],
+                email: emails[index],
                 phoneNumber: phoneNumbers[index]
             )
             
