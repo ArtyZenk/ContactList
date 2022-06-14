@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F304BCEE285895B300D0B6B0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304BCED285895B300D0B6B0 /* DataManager.swift */; };
+		F304BCF228589F8200D0B6B0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304BCF128589F8200D0B6B0 /* Person.swift */; };
 		F3C3B61928561FB300469FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3B61828561FB300469FEA /* AppDelegate.swift */; };
 		F3C3B61B28561FB300469FEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3B61A28561FB300469FEA /* SceneDelegate.swift */; };
 		F3C3B61D28561FB300469FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3B61C28561FB300469FEA /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		F304BCED285895B300D0B6B0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F304BCF128589F8200D0B6B0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		F3C3B61528561FB300469FEA /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C3B61828561FB300469FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3C3B61A28561FB300469FEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,13 +49,13 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		F304BCF028589D6300D0B6B0 /* New Group */ = {
+		F304BCF028589D6300D0B6B0 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				F3C3B61828561FB300469FEA /* AppDelegate.swift */,
 				F3C3B61A28561FB300469FEA /* SceneDelegate.swift */,
 			);
-			path = "New Group";
+			path = App;
 			sourceTree = "<group>";
 		};
 		F3C3B60C28561FB200469FEA = {
@@ -75,8 +77,9 @@
 		F3C3B61728561FB300469FEA /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				F304BCF028589D6300D0B6B0 /* New Group */,
+				F304BCF028589D6300D0B6B0 /* App */,
 				F3C3B61C28561FB300469FEA /* ViewController.swift */,
+				F304BCF128589F8200D0B6B0 /* Person.swift */,
 				F304BCEF2858981900D0B6B0 /* Services */,
 				F3C3B61E28561FB300469FEA /* Main.storyboard */,
 				F3C3B62128561FB300469FEA /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F304BCF228589F8200D0B6B0 /* Person.swift in Sources */,
 				F3C3B61D28561FB300469FEA /* ViewController.swift in Sources */,
 				F304BCEE285895B300D0B6B0 /* DataManager.swift in Sources */,
 				F3C3B61928561FB300469FEA /* AppDelegate.swift in Sources */,
