@@ -11,11 +11,9 @@ class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         setupViewControllers()
     }
     
-
     private func setupViewControllers() {
         let persons = Person.getContactList()
         
@@ -25,5 +23,4 @@ class TabBarViewController: UITabBarController {
         contactVC.persons = persons
         sectionVC.persons = persons
     }
-
 }

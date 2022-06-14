@@ -72,6 +72,38 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F304BCFC2858AF1100D0B6B0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F304BCF32858A40200D0B6B0 /* TabBarViewController.swift */,
+				F304BCF52858A4A100D0B6B0 /* ContactViewController.swift */,
+				F304BCF72858A4AF00D0B6B0 /* SectionViewController.swift */,
+				F304BCFA2858A86C00D0B6B0 /* ContactDetailsViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F304BCFD2858B03600D0B6B0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F3C3B61E28561FB300469FEA /* Main.storyboard */,
+				F3C3B62328561FB300469FEA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F304BCFE2858B04100D0B6B0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F304BCF028589D6300D0B6B0 /* App */,
+				F304BCFC2858AF1100D0B6B0 /* Scenes */,
+				F304BCF92858A4BA00D0B6B0 /* Model */,
+				F304BCEF2858981900D0B6B0 /* Services */,
+				F304BCFD2858B03600D0B6B0 /* Storyboards */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		F3C3B60C28561FB200469FEA = {
 			isa = PBXGroup;
 			children = (
@@ -91,17 +123,9 @@
 		F3C3B61728561FB300469FEA /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				F304BCF028589D6300D0B6B0 /* App */,
-				F304BCF92858A4BA00D0B6B0 /* Model */,
-				F304BCEF2858981900D0B6B0 /* Services */,
-				F3C3B61E28561FB300469FEA /* Main.storyboard */,
+				F304BCFE2858B04100D0B6B0 /* Sources */,
 				F3C3B62128561FB300469FEA /* Assets.xcassets */,
-				F3C3B62328561FB300469FEA /* LaunchScreen.storyboard */,
 				F3C3B62628561FB300469FEA /* Info.plist */,
-				F304BCF32858A40200D0B6B0 /* TabBarViewController.swift */,
-				F304BCF52858A4A100D0B6B0 /* ContactViewController.swift */,
-				F304BCF72858A4AF00D0B6B0 /* SectionViewController.swift */,
-				F304BCFA2858A86C00D0B6B0 /* ContactDetailsViewController.swift */,
 			);
 			path = ContactList;
 			sourceTree = "<group>";
