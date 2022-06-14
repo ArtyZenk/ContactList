@@ -104,6 +104,15 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		F394E51E2858B8CA00F439EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3C3B62128561FB300469FEA /* Assets.xcassets */,
+				F3C3B62628561FB300469FEA /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F3C3B60C28561FB200469FEA = {
 			isa = PBXGroup;
 			children = (
@@ -124,8 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				F304BCFE2858B04100D0B6B0 /* Sources */,
-				F3C3B62128561FB300469FEA /* Assets.xcassets */,
-				F3C3B62628561FB300469FEA /* Info.plist */,
+				F394E51E2858B8CA00F439EB /* Resources */,
 			);
 			path = ContactList;
 			sourceTree = "<group>";
@@ -357,7 +365,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9DSLGCL4J8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactList/Info.plist;
+				INFOPLIST_FILE = ContactList/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -385,7 +393,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9DSLGCL4J8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactList/Info.plist;
+				INFOPLIST_FILE = ContactList/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
